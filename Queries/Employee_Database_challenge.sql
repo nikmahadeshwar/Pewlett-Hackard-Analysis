@@ -28,7 +28,7 @@ ORDER BY COUNT DESC;
 
 Select * FROM retiring_titles
 
-`-- Mentorship Eligibility
+-- Mentorship Eligibility
 SELECT DISTINCT ON (emp_no) 
 e.emp_no,
 e.first_name,
